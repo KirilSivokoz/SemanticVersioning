@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors = { 'Alexander Ney' => 'alexander.ney@me.com' }
   s.source = { :git => 'https://github.com/AlexanderNey/SemanticVersioning.git', :branch => 'master', :tag => "v#{s.version}" }
   s.requires_arc = true
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '10.0'
   s.tvos.deployment_target = '11.0'
   s.osx.deployment_target = '10.13'
   s.swift_version = '5.0'
